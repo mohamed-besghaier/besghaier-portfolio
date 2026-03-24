@@ -1,8 +1,8 @@
 function Hero() {
   return (
-    <section id="hero">
+    <div className="page">
       <h1> Mohamed Besghaier </h1>
-    </section>
+    </div>
   );
 }
 

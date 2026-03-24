@@ -1,9 +1,9 @@
 function About() {
   return (
-    <section id="about">
+    <div className="page">
       <h2> About Me </h2>
       <p> Student, Hacker, Content creator </p>
-    </section>
+    </div>
   );
 }
 

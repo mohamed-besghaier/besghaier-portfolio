@@ -1,9 +1,9 @@
 function Contact() {
   return (
-    <section id="contact">
+    <div className="page">
       <h2>Contact</h2>
       <p>Email me at contact@besghaier.com</p>
-    </section>
+    </div>
   );
 }
 

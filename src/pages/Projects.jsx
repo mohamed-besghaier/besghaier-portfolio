@@ -1,14 +1,12 @@
 function Projects() {
   return (
-    <section id="projects">
+    <div className="page">
       <h2>Projects</h2>
       <p>
-        <ul>
-          <li> Agent-Based Models & Cellular Automata </li>
-          <li> URL Risk Analyzer </li>
-        </ul>
+        Agent-Based Models & Cellular Automata <br></br>
+        URL Risk Analyzer
       </p>
-    </section>
+    </div>
   );
 }
 

@@ -41,6 +41,27 @@ nav a:hover {
   color: #00bfff;
 }
 
+/* Page content */
+.page {
+  padding: 120px 40px 60px 40px; /* leave space for fixed navbar */
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
 /* Section */
 section {
   min-height: 100vh;
