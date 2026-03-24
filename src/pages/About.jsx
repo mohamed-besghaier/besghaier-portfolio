@@ -1,6 +1,7 @@
 function About() {
   return (
     <div className="page">
+      <title> About </title>
       <h2> About Me </h2>
       <p> Student, Hacker, Content creator </p>
     </div>

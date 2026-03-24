@@ -1,6 +1,7 @@
 function Projects() {
   return (
     <div className="page">
+      <title> Projects </title>
       <h2>Projects</h2>
       <p>
         Agent-Based Models & Cellular Automata <br></br>
