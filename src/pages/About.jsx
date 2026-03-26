@@ -5,10 +5,6 @@ function About() {
         <h2>About</h2>
       </div>
       <div className="about-grid">
-        <p className="about-lead">
-          I study computer science at Sorbonne University, with a background in operating systems,
-          computer networks, algorithms, databases, and systems programming.
-        </p>
         <div className="about-cards">
           <article className="info-card">
             <h3>Background</h3>
