@@ -1,27 +1,15 @@
 const PROJECT_DATA = [
   {
     title: "URL Risk Analyzer",
-    desc: "A tool for checking suspicious links against multiple indicators before a user clicks through.",
-    impact:
-      "Built to combine security signals into a quick triage workflow instead of relying on a single yes/no check.",
-    highlights: [
-      "Parses URLs and checks for suspicious patterns",
-      "Uses external intelligence sources to enrich the result",
-      "Presents findings in a format that is fast to scan"
-    ],
-    tech: ["Python", "OSINT", "APIs", "Security Research"]
+    desc: "Python CLI tool for URL security risk assessment, combining domain, TLS, and page-level checks with a scoring engine.",
+    tech: ["Python", "Web Application Security", "Web Scraping", "CLI"],
+    repoUrl: "https://github.com/mohamed-besghaier/url-risk-analyzer"
   },
   {
-    title: "Agent-Based Model",
-    desc: "An interactive simulation for exploring how simple local rules create complex system behavior.",
-    impact:
-      "Designed as a learning tool with visual feedback, adjustable parameters, and an emphasis on experimentation.",
-    highlights: [
-      "Renders dynamic states in a responsive interface",
-      "Exposes controls for changing behavior in real time",
-      "Turns abstract system concepts into something explorable"
-    ],
-    tech: ["React", "Canvas", "Simulation", "Interaction Design"]
+    title: "Artificial Life",
+    desc: "University project covering agent-based models, cellular automata, and simulations in Python.",
+    tech: ["Python", "OOP", "Cellular Automata", "Data Visualization"],
+    repoUrl: "https://github.com/mohamed-besghaier/LU2IN013-artificial-life"
   }
 ];
 
@@ -29,38 +17,34 @@ function Projects() {
   return (
     <section id="projects" className="section">
       <div className="section-heading">
-        <p className="eyebrow">Projects</p>
-        <h2>Selected work that reflects how I think.</h2>
-        <p>
-          These projects are less about quantity and more about how I approach interface clarity,
-          system behavior, and practical security concerns.
-        </p>
+        <h2>Projects</h2>
       </div>
       <div className="project-grid">
         {PROJECT_DATA.map((project) => (
           <article key={project.title} className="project-card">
             <div className="project-header">
               <h3>{project.title}</h3>
-              <span className="project-badge">Case Study</span>
             </div>
             <p>{project.desc}</p>
-            <p className="project-impact">{project.impact}</p>
-            <ul className="project-highlights">
-              {project.highlights.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
             <div className="tag-list" aria-label={`${project.title} technologies`}>
               {project.tech.map((tech) => (
                 <span key={tech} className="tag">{tech}</span>
               ))}
             </div>
+            <a
+              href={project.repoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Repository
+            </a>
           </article>
         ))}
       </div>
       <div className="projects-footer">
         <p>
-          More project details and code samples are available through my GitHub profile.
+          More work is available through my GitHub profile.
         </p>
         <a
           href="https://github.com/mohamed-besghaier"

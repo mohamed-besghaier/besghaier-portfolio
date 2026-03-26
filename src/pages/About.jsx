@@ -2,34 +2,30 @@ function About() {
   return (
     <section id="about" className="page section">
       <div className="section-heading">
-        <p className="eyebrow">About</p>
-        <h2>Technical curiosity with a defensive mindset.</h2>
+        <h2>About</h2>
       </div>
       <div className="about-grid">
         <p className="about-lead">
-          My work sits between product thinking and cybersecurity. I care about how systems behave,
-          how users move through interfaces, and where weak assumptions can turn into bugs or risk.
+          I study computer science at Sorbonne University, with a background in operating systems,
+          computer networks, algorithms, databases, and systems programming.
         </p>
         <div className="about-cards">
           <article className="info-card">
-            <h3>How I work</h3>
+            <h3>Interests</h3>
             <p>
-              I prefer simple architecture, readable components, and features that are easy to reason
-              about before they become hard to maintain.
+              I&apos;m particularly interested in Python, web security, and systems.
             </p>
           </article>
           <article className="info-card">
-            <h3>What I study</h3>
+            <h3>Tools</h3>
             <p>
-              I build through CTFs, labs, and small applications that force me to think about web
-              security, APIs, validation, and trust boundaries.
+              I work mainly with Python, Linux, Bash, SQL, Git, and object-oriented programming.
             </p>
           </article>
           <article className="info-card">
-            <h3>What I want next</h3>
+            <h3>Looking For</h3>
             <p>
-              Internships, collaborative projects, and roles where I can keep improving as a developer
-              while bringing stronger security habits into the workflow.
+              I&apos;m currently looking for a cybersecurity internship.
             </p>
           </article>
         </div>
