@@ -1,15 +1,14 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="brand">Mohamed Besghaier</div>
-      <div className="links">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+      <div className="nav-container">
+        <div className="links">
+          {["Home", "About", "Projects", "Contact"].map((item) => (
+            <a key={item} href={`#${item.toLowerCase()}`}>{item}</a>
+          ))}
+        </div>
       </div>
     </nav>
   );
 }
-
 export default Navbar;
