@@ -14,6 +14,9 @@ function App() {
         <Projects />
         <Contact />
       </main>
+      <footer className="site-footer">
+        <p>&copy; 2026 Mohamed Besghaier | besghaier.com</p>
+      </footer>
     </div>
   );
 }

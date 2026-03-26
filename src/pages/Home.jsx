@@ -4,15 +4,25 @@ function Home() {
   return (
     <section id="home" className="section">
       <div className="hero-content">
-        <div>
-          <h1 style={{ fontSize: '3.5rem', lineHeight: '1.1' }}>
-            Building <span style={{ color: 'var(--accent)' }}>secure</span> web apps.
+        <div className="hero-copy">
+          <p className="eyebrow">Web Development x Cybersecurity</p>
+          <h1 className="hero-title">
+            Building <span className="accent-text">secure</span>, readable, and reliable web experiences.
           </h1>
-          <p style={{ fontSize: '1.2rem', marginTop: '1.5rem', maxWidth: '500px' }}>
-            Hi, I’m Mohamed. I bridge the gap between clean web development and
-            proactive cybersecurity.
+          <p className="hero-text">
+            I&apos;m Mohamed Besghaier, a computer science student focused on frontend engineering,
+            backend fundamentals, and practical security thinking. I like shipping interfaces that
+            feel clean for users and hold up well under scrutiny.
           </p>
-          <a href="#projects" className="cta-button">View My Work</a>
+          <div className="hero-actions">
+            <a href="#projects" className="cta">View Projects</a>
+            <a href="#contact" className="cta cta-secondary">Let&apos;s Talk</a>
+          </div>
+          <ul className="hero-metrics" aria-label="Key strengths">
+            <li>Security-minded development</li>
+            <li>Hands-on labs and CTF practice</li>
+            <li>Clear UI structure and fast iteration</li>
+          </ul>
         </div>
         <div className="profile-container">
           <img
