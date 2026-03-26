@@ -11,15 +11,15 @@ function About() {
         </p>
         <div className="about-cards">
           <article className="info-card">
-            <h3>Interests</h3>
+            <h3>Background</h3>
             <p>
-              I&apos;m particularly interested in Python, web security, and systems.
+              My academic background includes operating systems, networks, databases, and systems programming.
             </p>
           </article>
           <article className="info-card">
-            <h3>Tools</h3>
+            <h3>Interests</h3>
             <p>
-              I work mainly with Python, Linux, Bash, SQL, Git, and object-oriented programming.
+              I&apos;m particularly interested in web security, systems, and networks.
             </p>
           </article>
           <article className="info-card">
@@ -28,6 +28,7 @@ function About() {
               I&apos;m currently looking for a cybersecurity internship.
             </p>
           </article>
+
         </div>
       </div>
     </section>
