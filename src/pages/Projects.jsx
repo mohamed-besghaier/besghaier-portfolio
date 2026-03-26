@@ -1,13 +1,18 @@
 function Projects() {
   return (
-    <div className="page">
-      <title> Projects </title>
+    <section id="projects" className="page section">
       <h2>Projects</h2>
-      <p>
-        Agent-Based Models & Cellular Automata <br></br>
-        URL Risk Analyzer
-      </p>
-    </div>
+      <ul className="project-list">
+        <li>
+          <h3>URL Risk Analyzer</h3>
+          <p>Scans URLs for basic security indicators and identifies suspicious patterns.</p>
+        </li>
+        <li>
+          <h3>Agent-Based Model Demo</h3>
+          <p>Interactive environment for exploring emergent behavior in cellular systems.</p>
+        </li>
+      </ul>
+    </section>
   );
 }
 
