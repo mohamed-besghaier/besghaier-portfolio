@@ -65,13 +65,17 @@ p {
 /* Section */
 section {
   min-height: 100vh;
-  padding: 120px 40px 60px 40px; /* top padding leaves space for navbar */
+  padding: 120px 40px 60px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #333;
   text-align: center;
+}
+
+#hero-sec {
+  left: 50%;
 }
 
 /* Headings */
@@ -90,6 +94,14 @@ p {
   font-size: 1.2rem;
   max-width: 700px;
   line-height: 1.6;
+}
+
+/* Images */
+
+#profile {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 /* Buttons */
