@@ -2,7 +2,7 @@ const PROJECT_DATA = [
   {
     title: "Vulnerable Web Application",
     desc: "Vulnerable web application built for web penetration testing practice, covering common web flaws in a simple Express and SQLite setup.",
-    tech: ["Node.js", "Express", "SQLite", "Web Security", "Penetration Testing"],
+    tech: ["Node.js", "Express.js", "SQLite", "Web Security", "Penetration Testing"],
     repoUrl: "https://github.com/mohamed-besghaier/vuln-app"
   },
   {
