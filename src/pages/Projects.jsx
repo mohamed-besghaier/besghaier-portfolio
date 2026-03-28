@@ -1,8 +1,14 @@
 const PROJECT_DATA = [
   {
+    title: "Vulnerable Web Application",
+    desc: "Vulnerable web application built for web penetration testing practice, covering common web flaws in a simple Express and SQLite setup.",
+    tech: ["Node.js", "Express", "SQLite", "Web Security", "Penetration Testing"],
+    repoUrl: "https://github.com/mohamed-besghaier/vuln-app"
+  },
+  {
     title: "URL Risk Analyzer",
     desc: "Python CLI tool for URL security risk assessment, combining domain, TLS, and page-level checks with a scoring engine.",
-    tech: ["Python", "Web Application Security", "Web Scraping", "CLI"],
+    tech: ["Python", "Web Security", "Web Scraping", "CLI"],
     repoUrl: "https://github.com/mohamed-besghaier/url-risk-analyzer"
   },
   {
