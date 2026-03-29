@@ -15,7 +15,7 @@ const PROJECT_DATA = [
     title: "Artificial Life",
     desc: "University project covering agent-based models, cellular automata, and simulations in Python.",
     tech: ["Python", "OOP", "Cellular Automata", "Data Visualization"],
-    repoUrl: "https://github.com/mohamed-besghaier/LU2IN013-artificial-life"
+    repoUrl: "https://github.com/mohamed-besghaier/artificial-life"
   }
 ];
 
