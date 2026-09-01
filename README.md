@@ -1,6 +1,4 @@
-# Mohamed Besghaier Portfolio
-
-Personal portfolio built with React and Vite. The site is designed to present a focused profile around web development, cybersecurity, and technical problem solving without adding unnecessary complexity.
+Personal portfolio built with React and Vite.
 
 ## Stack
 
@@ -11,7 +9,7 @@ Personal portfolio built with React and Vite. The site is designed to present a 
 
 ## Sections
 
-- Hero introduction with clear positioning
+- Hero introduction
 - About section focused on approach and learning path
 - Project case studies
 - Contact section with direct links
